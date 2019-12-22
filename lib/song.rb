@@ -40,6 +40,7 @@ class Song
   
  
   def self.artist_count
+    
     @@artists = @@artists.array
   end
   
