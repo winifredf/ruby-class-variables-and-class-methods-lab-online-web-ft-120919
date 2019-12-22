@@ -14,13 +14,13 @@ class Song
     @@genres = genre
   end
   
-  @@count = 0
-  
   def self.count
+    @@count
   end
   
-  genres = []
-  
+  def self.artist
+    @@artist
+  end
   
   def self.genre_count
     genrehash = {}
