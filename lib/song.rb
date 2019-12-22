@@ -41,7 +41,7 @@ class Song
  
   def self.artist_count
     artist_count = {}
-    artist.each do  
+    artists.each  do
     @@artists = @@artists.array
   end
   
