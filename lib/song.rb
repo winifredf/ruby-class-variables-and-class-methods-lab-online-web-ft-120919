@@ -37,6 +37,7 @@ class Song
       end
   end
   genre_count
+  
  
   def self.artists
     @@artists = @@artists.array
