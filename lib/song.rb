@@ -23,7 +23,7 @@ class Song
     @@count
   end
   
-  
+  genres = []
   
   def self.artists
     @@artists.array
