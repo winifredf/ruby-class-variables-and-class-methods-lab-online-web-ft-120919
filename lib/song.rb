@@ -28,9 +28,11 @@ class Song
     @@genres = @@genres.uniq
   end
   
+  @@artists = []
+  
   
   def self.artists
-    @@artists.array
+    @@artists = @@artists.array
   end
   
   
