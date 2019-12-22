@@ -48,4 +48,4 @@ class Song
       end
     end
   end
-    artist_count
+  artist_count
