@@ -23,14 +23,18 @@ class Song
   
   genres = []
   
+  
+  def self.genres
+    @@genres = @@genres.uniq
+  end
+  
+  
   def self.artists
     @@artists.array
   end
   
   
-  def self.genres
-    @@genres.uniq
-  end
+  
   
   
   def self.genre_count
