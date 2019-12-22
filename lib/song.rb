@@ -33,9 +33,7 @@ class Song
       if  genre_count[genre]
   end
   
-  @@artists = []
-  
-  
+ 
   def self.artists
     @@artists = @@artists.array
   end
