@@ -22,6 +22,11 @@ class Song
     @@artist.uniq
   end
   
+  def self.genres
+    @@genres.uniq
+  end
+  
+  
   def self.genre_count
     genrehash = {}
     @@genres.uniq.each {|g| genrehash[g] = @@genres.count{|i| i == g }}
